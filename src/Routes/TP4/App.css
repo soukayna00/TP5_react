@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgba(81, 83, 87, 0.522);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.holder {
+  background-color: #282c34;
+  color: aliceblue;
+  border-radius: 20px;
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-height: 450px;
+
+}
+
+.meal_holder {
+  font-size: 14px smaller;
+  font-family: Monstrat;
+  width: 800px;
+  border-radius: 40px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fefeff;
+  box-shadow: 10px 10px 20px 10px #887611;
+  text-align: center;
+  color: #2d2e2f;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+}
+
+.image_meal {
+  height: '200px';
+  width: '450px';
+  border-radius: '40px';
+}
+
+.meal_holder>h1 {
+  color: #887611;
+}
+
+/*/ mobile */
+
+
+@media screen and (max-width: 576px) {
+  .holder {
+    max-height: none;
+
+  }
+
+  .meal_holder {
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+  .image_meal {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+
+@media screen and (min-width: 576px) {
+  .meal_holder {
+    width: 70%;
+  }
+}

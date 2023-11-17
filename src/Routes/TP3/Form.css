@@ -1,0 +1,17 @@
+
+.light-mode {
+  background-color: #ffffff; 
+  color: #333; 
+  padding: 20px;
+}
+
+.form-control {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-dark {
+ 
+ border: none;
+}

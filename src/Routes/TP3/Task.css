@@ -1,0 +1,33 @@
+
+.light-mode {
+  background-color: #ffffff;
+  color: #333; 
+  padding: 10px;
+}
+
+.form-check-input {
+  background-color: #ffffff;
+  border-color: #ccc;
+}
+
+.form-control {
+  background-color:  #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-danger {
+  background-color: #ff6b6b; 
+  border: none;
+}
+
+
+.completed {
+  background-color: #f0f0f0;
+  text-decoration: line-through;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
